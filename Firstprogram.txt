@@ -1,0 +1,17 @@
+import javax.swing.*;
+public class Firstprogram
+{
+	public static coid main(String[] args)
+	{
+	  System.out.printIn("studentId: 2413111127" +
+			     "studentName: Achavin Phoowech" +
+			     "Topic: gitHub" +
+			     "Date: 11/20/2024");
+			     
+	  JOptionPane.showMessageDialog(null,
+					"studentId: 2413111127",
+			     		"studentName: Achavin Phoowech",
+			    		"Topic: gitHub",
+			     		"Date: 11/20/2024");
+	}
+}
