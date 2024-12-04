@@ -1,8 +1,7 @@
-package Labsheet;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class Lab03 {
+public class Lab103 {
 
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);    
