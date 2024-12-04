@@ -1,4 +1,4 @@
 studentId:2413111127
 studentName:Achavin phootawech
-Topic:InputData
-Date:11/27/2024
+Topic:Labsheet02
+Date:4/12/2024
