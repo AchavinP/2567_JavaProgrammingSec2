@@ -1,23 +1,52 @@
+package java_Lab10;
 
 public class Drink {
 	private int type;
 	private char size;
 	
-	public Drink (int type,char size) {
+	Drink(int type,char size){
 		this.type = type;
 		this.size = size;
 	}
-	
-	public String getTypeName;
-	
-	public int getTypePrice;
-	
-	public String getSizeName;
-	
-	public int getSizePrice;
-	
-	public int getTotalPrice;
+	Drink(){
+		this(0,' ');
+	}
+	public String getTypeName() {
+		if(this.type == 1) {
+			return "Hot";
+		}else if(this.type == 2) {
+			return "Cold";
+		}else {return null;}
+	}
+	public int getTypePrice() {
+		if(this.type == 1) {
+			return 10;
+		}else if(this.type == 2) {
+			return 20;
+		}else {return 0;}
+	}
+	public String getSizeName() {
+		if(this.size == 'S') {
+			return "Small";
+		}else if(this.size == 'M') {
+			return "Medium";
+		}else if(this.size == 'L') {
+			return "Large";
+		}else {
+			return null;
+		}
+	}
+	public int getSizePrice() {
+		if(this.size == 'S') {
+			return 15;
+		}else if(this.size == 'M')  {
+			return 20;
+		}else if(this.size == 'L') {
+			return 25;
+		}else {return 0;}
+	}
+	public int getTotalPrice() {
+		return getTypePrice() + getSizePrice();
+	}
 	
 }
-
-
